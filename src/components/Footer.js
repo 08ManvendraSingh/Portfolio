@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -20,6 +21,12 @@ const Footer = () => {
               to="https://app.netlify.com/teams/shekhawatmanvendra08/sites"
             >
               <SiNetlify />
+            </Link>
+            <Link
+              className="text-white text-2xl hover:text-[#617D98] transition-all ease-linear cursor-pointer"
+              to="https://github.com/08ManvendraSingh"
+            >
+              <FaGithub />
             </Link>
           </div>
         </div>

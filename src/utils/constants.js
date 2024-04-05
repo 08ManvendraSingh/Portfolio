@@ -1,6 +1,7 @@
 export const LINKEDIN_CDN = "https://www.linkedin.com/in/manvendra-singh08/";
 export const NETLIFY_CDN =
   "https://app.netlify.com/teams/shekhawatmanvendra08/sites";
+export const GITHUB_CDN = "https://github.com/08ManvendraSingh";
 
 export const service = [
   {
@@ -104,12 +105,18 @@ export const projectDeatil = [
   },
   {
     img: "../../Images/work4.png",
+    name: "snapshop-ekart",
+    title: "Personal Project",
+    projectLink: "https://snapshop-ekart.netlify.app",
+  },
+  {
+    img: "../../Images/work5.png",
     name: "namasteaccordian",
     title: "Personal Project",
     projectLink: "https://namasteaccordian.netlify.app",
   },
   {
-    img: "../../Images/work5.png",
+    img: "../../Images/work6.png",
     name: "namastesearch",
     title: "Personal Project",
     projectLink: "https://namastesearch.netlify.app",

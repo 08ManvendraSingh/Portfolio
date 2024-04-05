@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 import {
+  GITHUB_CDN,
   LINKEDIN_CDN,
   NETLIFY_CDN,
   coreLanguage,
@@ -41,6 +43,11 @@ const Home = () => {
               <span className="text-white text-2xl hover:text-[#617D98] transition-all ease-linear cursor-pointer">
                 <Link to={NETLIFY_CDN}>
                   <SiNetlify />
+                </Link>
+              </span>
+              <span className="text-white text-2xl hover:text-[#617D98] transition-all ease-linear cursor-pointer">
+                <Link to={GITHUB_CDN}>
+                  <FaGithub />
                 </Link>
               </span>
             </div>
@@ -134,7 +141,7 @@ const Home = () => {
           me with better ideas to code or collaborate.
         </p>
         <div class="mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-[#617d98]">
-          {projectDeatil.slice(0, 3).map((x, i) => (
+          {projectDeatil.slice(0, 4).map((x, i) => (
             <Link to="/projects">
               <ProjectCard key={i} data={x} />
             </Link>
