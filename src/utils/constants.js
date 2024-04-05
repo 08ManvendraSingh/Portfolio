@@ -46,6 +46,15 @@ export const framework = [
 
 export const post = [
   {
+    postImg: "../../Images/work4.png",
+    title: "React Project",
+    description: `🚀 Excited to unveil my E-commerce SnapShop Project, showcasing the power of React JS, Redux Toolkit ,Tailwind CSS and React Router Dom! ⏯️`,
+    userImg: "../../Images/user.jpeg",
+    time: "5 Mins Read and Watch",
+    openLink:
+      "https://www.linkedin.com/posts/manvendra-singh08_namastereact-reactjs-javascript-activity-7166330436925804544-OOUO?utm_source=share&utm_medium=member_desktop",
+  },
+  {
     postImg: "../../Images/blog.png",
     title: "React",
     description: `Just revised 𝐄𝐩𝐢𝐬𝐨𝐝𝐞-3 "𝐋𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐟𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧" of the NamasteReact course by Akshay Saini 🚀 Here are some 🗝 key points I'mexcited to share`,
